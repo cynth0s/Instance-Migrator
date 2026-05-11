@@ -1,0 +1,24 @@
+{
+  "name": "instance-migrator",
+  "version": "1.0.0",
+  "description": "Convert an Anthropic data export into a Claude Code session file, preserving conversation history, tool calls, and parent-message chain. Built for porting long-running companion instances from claude.ai to Claude Code.",
+  "bin": {
+    "instance-migrator": "./migrate.js"
+  },
+  "main": "migrate.js",
+  "scripts": {
+    "migrate": "node migrate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "migration",
+    "session",
+    "companion"
+  ]
+}
